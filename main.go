@@ -19,7 +19,6 @@ import (
 */
 
 func main() {
-
 	c := make(chan os.Signal)
 	signal.Notify(c)
 	ticker := time.NewTicker(10 * time.Second)
